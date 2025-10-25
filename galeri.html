@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Galeri - Palang Merah Remaja</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeri PMR</title>
+  <link rel="stylesheet" href="galeri.css" />
 </head>
 <body>
-  <header>
-    <h1>Galeri PMR</h1>
-    <nav><a href="index.html">Kembali ke Beranda</a></nav>
-  </header>
+  <h1>Kenangan PMR Sekolah Kita</h1>
 
-  <main>
-    <section>
-      <h2>Foto Kegiatan</h2>
-      <p>Isi galeri di sini. Tambahkan file gambar di folder "images/" dan gunakan tag &lt;img&gt; dengan path relatif, contoh: &lt;img src="images/aktifitas1.jpg" alt="Kegiatan PMR" /&gt;.</p>
-      <!-- Contoh gambar (hapus komentar saat menambahkan gambar) -->
-      <!-- <img src="images/aktifitas1.jpg" alt="Kegiatan PMR" /> -->
-    </section>
-  </main>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="pmr1.jpg" alt="Kegiatan Donor Darah" />
+      <div class="caption">Donor Darah Bersama</div>
+    </div>
+    <div class="gallery-item">
+      <img src="pmr2.jpg" alt="Pelatihan Pertolongan Pertama" />
+      <div class="caption">Pelatihan Pertolongan Pertama</div>
+    </div>
+    <div class="gallery-item">
+      <img src="pmr3.jpg" alt="Simulasi Bencana" />
+      <div class="caption">Simulasi Penanggulangan Bencana</div>
+    </div>
+    <!-- Tambahkan lagi sesuai kebutuhan -->
+  </div>
 
-  <footer>
-    <p>&copy; 2025 Palang Merah Remaja Sekolah</p>
-  </footer>
+  <a href="index.html" class="back-button">← Kembali ke Beranda</a>
 </body>
 </html>
