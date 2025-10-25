@@ -2,16 +2,26 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  color: white;
+  height: 100vh;
+  background: linear-gradient(to bottom, #d50000 35%, white 35%);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: linear-gradient(to bottom, #d50000 35%, white 35%);
+  color: white;
+}
+
+.hero {
+  text-align: center;
+}
+
+.title {
+  font-size: 4em;
+  margin-bottom: 30px;
 }
 
 .menu-container {
   display: flex;
+  justify-content: center;
   gap: 40px;
 }
 
