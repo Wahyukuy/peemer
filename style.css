@@ -1,13 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #d50000;
   font-family: Arial, sans-serif;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: linear-gradient(to bottom, #d50000 35%, white 35%);
 }
 
 .menu-container {
@@ -20,6 +20,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s ease;
+  color: inherit;
 }
 
 .menu-item:hover {
